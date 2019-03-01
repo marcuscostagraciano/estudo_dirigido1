@@ -1,7 +1,7 @@
 <?php
 
 print "Valor em metros: \n";
-$valormetros = fgets (STDIN);
+$valormetros = (float)fgets (STDIN);
 
 $valormilimetros= $valormetros*1000;
 
