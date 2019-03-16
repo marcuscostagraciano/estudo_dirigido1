@@ -11,7 +11,7 @@ $tamanhom2pintar = (float) fgets(STDIN);
 $rendimento_lata= (6*18);
 $rendimento_galao= (6*3.6);
 
-print "\nDeseja usar: 1 - Lata de 18 litros = custam 85 reais\n             2 - Galão de 3,6 litros = custam 25 reais\n             3 - Misturar galões e latas\n    Selecione 1,2 ou 3: ";
+print "\nDeseja usar: 1 - Lata de 18 litros = custam 80 reais\n             2 - Galão de 3,6 litros = custam 25 reais\n             3 - Misturar galões e latas\n    Selecione 1,2 ou 3: ";
 $lataougalao= (float) fgets(STDIN);
 
 if ($lataougalao == 1) 
